@@ -1,0 +1,68 @@
+
+.button1 {
+    -fx-background-color : #141124;
+    -fx-background-radius :  0 0 0 0;
+}
+
+.button1:hover {
+    -fx-background-color : #524A7B ;
+}
+.button1:pressed {
+    -fx-background-color : #2F2B43 ;
+}
+
+.button2 {
+    -fx-background-color :linear-gradient(to top left, #41951C, #D4CEE3);
+    -fx-background-radius :  30 30 30 30;
+    -fx-text-fill: white;
+    -fx-font-size: 15px
+}
+
+.button2:hover {
+    -fx-background-color :linear-gradient(to top left, #D4CEE3, #41951C);
+    -fx-background-radius :  30 30 30 30;
+}
+
+.button2:pressed {
+    -fx-background-color :linear-gradient(to top left, #41951C, #D4CEE3);
+    -fx-background-radius :  30 30 30 30;
+}
+
+.text-field {
+    -fx-background-color: #131022 ;
+    -fx-background-radius: 10;
+    -fx-border-radius: 5;
+    -fx-text-fill: white;
+    -fx-pref-height: 30px;
+    -fx-prompt-text-fill: white;
+}
+
+.text-field:focused {
+    -fx-border-color: #393351;
+    -fx-background-radius: 10;
+}
+
+.linear-grad {
+    -fx-background-color: linear-gradient(to bottom left, #A868A0, #2D75E8);
+}
+
+
+.dialogPane{
+    -fx-background-color: #2F2B43;
+    -fx-pref-width: 600px;
+}
+
+.dialogPane > .header-panel{
+    -fx-background-color: #393351;
+}
+
+.dialogPane > .header-panel .label{
+    -fx-font-size: 20px;
+    -fx-text-fill: #41951C;
+}
+
+.dialogPane > .label.content{
+    -fx-font-size: 15px;
+    -fx-text-fill: #41951C;
+}
+
